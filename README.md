@@ -27,7 +27,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 ---
 
-# Funnel Analysis
+## Funnel Analysis
 <img src="https://github.com/user-attachments/assets/b68e70e5-4aa2-446d-a3eb-b8ab9f6b46a6" width="700">
 
 ### Funnel Analysis Insights
@@ -39,7 +39,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 ---
 
-# Cohort / Retention Analysis
+## Cohort / Retention Analysis
 <img src="https://github.com/user-attachments/assets/ab2b33c8-41cf-465a-8ab8-a2f084279acb" width="700">
 
 ### Cohort Retention Insights
@@ -48,7 +48,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 ---
 
-# CLV Analysis
+## CLV Analysis
 
 <p align="center">
   <img width="435" height="215" alt="image" src="https://github.com/user-attachments/assets/b1a905ba-7bfa-4010-8d2e-ec79a3bcec24" />
@@ -63,7 +63,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 ---
 
-# Recommendations
+## Recommendations
 
 - **Onboarding Optimization:** Simplify onboarding and pricing page flows to reduce drop-off before signup and payment stages
 - **Retention Strategy:** Introduce engagement emails or renewal reminders during the Month 3–Month 7 churn period
@@ -73,7 +73,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 ---
 
-# Technical Highlights
+## Technical Highlights
 
 SQL was used to clean, transform, and aggregate SaaS customer event data for funnel, retention, and CLV analysis. Subqueries, CTEs, and window functions were used to analyze user behavior across different stages of the subscription lifecycle.
 
