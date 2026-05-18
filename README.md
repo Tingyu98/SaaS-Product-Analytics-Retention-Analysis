@@ -1,20 +1,20 @@
 ## Business Goals
 
-The SaaS company aims to improve conversion, retention, and long-term customer value while supporting future product growth strategies.
+The SaaS company aims to improve **conversion**, **retention**, and **long-term customer value** while supporting future product growth strategies.
 
 However, the business lacks clear visibility into customer engagement and drop-off behavior across the subscription journey, making it difficult to optimize onboarding and retention efforts.
 
-This project applies funnel analysis, cohort retention analysis, and customer lifetime value (CLV) analysis to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.
+This project applies **funnel analysis**, **cohort retention analysis**, and **customer lifetime value (CLV) analysis** to identify conversion bottlenecks, retention trends, and high-value customer segments that can support product and business decision-making.
 
 ---
 
 ## Executive Summary
 
-The analysis showed major user drop-off during onboarding and payment stages, while retention decreased noticeably between Month 3 and Month 7, suggesting a key churn period in the customer lifecycle.
+The analysis showed major **user drop-off** during onboarding and payment stages, while retention decreased noticeably between **Month 3 and Month 7**, suggesting a key churn period in the customer lifecycle.
 
-Organic Search and LinkedIn Ads brought in higher-value users with stronger conversion and CLV performance, while Enterprise customers generated the highest long-term customer value.
+**Organic Search** and **LinkedIn Ads** brought in higher-value users with stronger conversion and CLV performance, while **Enterprise customers** generated the highest long-term customer value.
 
-The results suggest opportunities to simplify onboarding and payment flows, improve engagement during the M3–M7 period, and invest more in high-performing acquisition channels and Enterprise customer growth.
+The results suggest opportunities to simplify onboarding and payment flows, improve engagement during the **M3–M7 period**, and invest more in high-performing acquisition channels and Enterprise customer growth.
 
 ---
 
@@ -22,14 +22,13 @@ The results suggest opportunities to simplify onboarding and payment flows, impr
 
 The dataset includes customer, subscription, revenue, and event-level tables used to analyze user behavior across the SaaS subscription lifecycle.
 
-<img width="1055" height="496" alt="Screenshot 2026-05-16 at 3 22 59 PM" src="https://github.com/user-attachments/assets/ac01dad2-235f-4bc0-a29d-51e0add371e4" />
+<img src="https://github.com/user-attachments/assets/ac01dad2-235f-4bc0-a29d-51e0add371e4" width="700">
 
 
 ---
 
 # Funnel Analysis
-<img width="905" height="527" alt="Screenshot 2026-05-18 at 2 26 37 PM" src="https://github.com/user-attachments/assets/b68e70e5-4aa2-446d-a3eb-b8ab9f6b46a6" />
-
+<img src="https://github.com/user-attachments/assets/b68e70e5-4aa2-446d-a3eb-b8ab9f6b46a6" width="700">
 
 ### Funnel Analysis Insights
 
@@ -41,8 +40,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 ---
 
 # Cohort / Retention Analysis
-<img width="1456" height="790" alt="download" src="https://github.com/user-attachments/assets/ab2b33c8-41cf-465a-8ab8-a2f084279acb" />
-
+<img src="https://github.com/user-attachments/assets/ab2b33c8-41cf-465a-8ab8-a2f084279acb" width="700">
 
 ### Cohort Retention Insights
 - Earlier 2024 cohorts showed stronger long-term retention compared to newer 2025 cohorts
