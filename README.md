@@ -58,7 +58,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 ### CLV Insights
 
 - Enterprise customers generated the highest average CLV (**$2,729**) despite higher acquisition costs
-- LinkedIn Ads generated the highest average CLV by acquisition channel (**$1,714**), followed by Organic Search (**$1,471**)
+- LinkedIn Ads generated the highest average CLV by acquisition channel (**$1,714**), followed by Social media (**$1,537**)
 - Google Ads generated the lowest average CLV among acquisition channels (**$960**)
 
 ---
@@ -67,7 +67,7 @@ The dataset includes customer, subscription, revenue, and event-level tables use
 
 - **Onboarding Optimization:** Simplify onboarding and pricing page flows to reduce drop-off before signup and payment stages
 - **Retention Strategy:** Introduce engagement emails or renewal reminders during the Month 3–Month 7 churn period
-- **Acquisition Channels:** Invest more in Organic Search and LinkedIn Ads, which showed stronger conversion and higher CLV
+- **Acquisition Channels:** Invest more in Social media and LinkedIn Ads, which showed stronger conversion and higher CLV
 - **Enterprise Growth:** Prioritize Enterprise customer acquisition and retention, as Enterprise users generated the highest average CLV
 - **Google Ads Optimization:** Reevaluate Google Ads targeting, as it generated the lowest average CLV among acquisition channels
 
