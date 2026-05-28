@@ -106,15 +106,25 @@ Key functions used include `DATE_FORMAT()`, `TIMESTAMPDIFF()`, `COUNT(DISTINCT)`
 
 <img width="690" height="534" alt="image" src="https://github.com/user-attachments/assets/4b506298-a6fc-4208-9bc2-30ea9b89c45d" />
 
-#### Customer Lifetime Value (CLV
+#### RFM Segmentation Logic
 
-These queries were used to calculate customer lifetime value by subscription plan and acquisition source.
-Key functions used include `SUM()`, `AVG()`, `COUNT(DISTINCT)`, CTEs, and JOIN operations.
+Customers were segmented using RFM (Recency, Frequency, Monetary) analysis.
 
-<p align="center">
-  <img width="435" height="215" alt="image" src="https://github.com/user-attachments/assets/718dc0c4-18c2-416a-ae1c-d6c81cfddaae" />
-  <img width="361" height="218" alt="image" src="https://github.com/user-attachments/assets/5d84cdf2-401b-4e07-bd66-1e1db342c878" />
-</p>
+- **Recency (R):** how recently a customer made a payment  
+- **Frequency (F):** how frequently a customer made transactions  
+- **Monetary (M):** customer lifetime value (CLV) and overall revenue contribution  
+
+Each metric was scored from 1 to 5 using `NTILE(5)` window functions.
+
+Customer segments were then assigned using business rules:
+
+- **Champions:** high recency, frequency, and monetary scores  
+- **Loyal Customers:** consistently active and high-value customers  
+- **New / Promising:** recent customers with growth potential  
+- **At Risk:** previously active customers showing declining engagement  
+- **Lost Customers:** inactive customers with low engagement and value
+
+<img width="690" height="400" alt="7ba441e0-ef66-441d-bf9b-709dc5bd3665" src="https://github.com/user-attachments/assets/fac312dd-d972-4e9f-a53c-bb5ccce934f4" />
 
 
 
